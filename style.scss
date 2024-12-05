@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: "oswald";
+
+
+    h2 {
+
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #000000;
+
+    }
+
+    nav {
+
+        width: 40%;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #5B5B5B;
+
+    }
+
+    button {
+
+
+        width: 10%;
+        height: 6vh;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #000000;
+        border: solid;
+        background-color: #FFFFFF;
+        
+    }
+
+}
+
+.container_PortoLogistica {
+    height: 80vh;
+    background-color: #5B5B5B;
+    background-image: url(./imagens/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "oswald";
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+
+
+
+    h1 {
+
+        color: #FFFFFF;
+        font-size: 6rem;
+        font-weight: 700;
+
+
+
+    }
+
+    p {
+
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+    button {
+
+        width: 15%;
+        height: 7vh;
+        background-color: blue;
+        border: solid 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin: 2%;
+
+
+    }
+
+
+
+}
+
+.container {
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+
+.elementos {
+
+    width: 50%;
+    height: 105vh;
+    background-image: url(./imagens/imagem_gestao_portuaria.png);
+    background-repeat: no-repeat;
+
+}
+
+.texto {
+    width: 45%;
+    height: 90vh;
+    text-align:left;
+}
+
+h6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "oswald";
+    color: blue;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-family: "roboto";
+}
+
+p {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "roboto";
+}
+
+ul {
+
+    list-style: none;
+    
+}
+
+a {
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: blue;
+    font-family: "roboto";
+}
+
+.texto, h6, p, h3, a{
+    margin: 3%;
+}
+
+}
+
+.texto_1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #9c9898;
+    padding: 2%;
+
+    h6{
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "oswald";
+        color: blue;
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: "oswald";
+        color: black;
+
+
+    }
+}
+
+.conteudo{
+    width: 100%;
+    height: 85vh;
+    background-color: #9c9898;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+.figura_1 {
+    background-image: url(./imagens/img_box_1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 20%;
+    height: 75vh;
+    background-color:#FFFFFF
+}
+
+.figura_2 {
+    background-image: url(./imagens/img_box_2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 20%;
+    height: 75vh;
+    background-color: #FFFFFF;
+
+}
+
+.figura_3 {
+    background-image: url(./imagens/img_box_3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 20%;
+    height: 75vh;
+    background-color: #FFFFFF;
+    
+
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    padding: 0.7%;
+    
+
+    h6{
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "oswald";
+        
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 200;
+        font-family: "oswald";
+
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
