@@ -271,4 +271,18 @@ form div input[type=submit] {
   height: 80vh;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  background-color: grey;
+  width: 100%;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
