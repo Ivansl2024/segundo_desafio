@@ -30,7 +30,7 @@ header a {
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 500;
-  color: #5B5B5B;
+  color: #5b5b5b;
 }
 header button {
   width: 10%;
@@ -39,12 +39,12 @@ header button {
   font-weight: 500;
   color: #000000;
   border: solid;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .container_PortoLogistica {
   height: 80vh;
-  background-color: #5B5B5B;
+  background-color: #5b5b5b;
   background-image: url(./imagens/background.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -56,13 +56,13 @@ header button {
   padding: 5%;
 }
 .container_PortoLogistica h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 6rem;
   font-weight: 700;
 }
 .container_PortoLogistica p {
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 200;
 }
@@ -73,7 +73,7 @@ header button {
   border: solid 0;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 2%;
 }
 
@@ -120,7 +120,11 @@ header button {
   color: blue;
   font-family: "roboto";
 }
-.container .texto, .container h6, .container p, .container h3, .container a {
+.container .texto,
+.container h6,
+.container p,
+.container h3,
+.container a {
   margin: 3%;
 }
 
@@ -160,7 +164,7 @@ header button {
   background-position: top;
   width: 20%;
   height: 75vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .conteudo .figura_2 {
   background-image: url(./imagens/img_box_2.png);
@@ -168,7 +172,7 @@ header button {
   background-position: top;
   width: 20%;
   height: 75vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .conteudo .figura_3 {
   background-image: url(./imagens/img_box_3.png);
@@ -176,7 +180,7 @@ header button {
   background-position: top;
   width: 20%;
   height: 75vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .conteudo div {
   display: flex;
@@ -194,4 +198,77 @@ header button {
   font-size: 1.5rem;
   font-weight: 200;
   font-family: "oswald";
+}
+
+.texto_3 {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: space-around;
+  font-family: "oswald";
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: blue;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.imagens {
+  display: flex;
+  height: 75vh;
+  justify-content: space-around;
+}
+
+form {
+  width: 40%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 40vh;
+  font-family: "oswald";
+}
+form div input {
+  outline: unset;
+  width: 70%;
+  height: 6vh;
+  border: 1px solid black;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+form div textarea {
+  outline: unset;
+  width: 70%;
+  height: 20vh;
+  border: 1px solid black;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+form div input[type=submit] {
+  background-color: blue;
+  color: white;
+  width: 70%;
+  height: 7vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.Portos {
+  display: flex;
+  width: 45%;
+  height: 80vh;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

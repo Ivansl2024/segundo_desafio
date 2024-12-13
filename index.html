@@ -1,102 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Revisão PortoLogística</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Revisão PortoLogística </title>
-
-</head>
-
-<body>
+  <body>
     <header>
-        <h2>PortoLogística</h2>
-        <nav>
-            <ul>
-                <li><a href="" target="_blank"> Home </a></li>
-                <li><a href="" target="_blank"> Mais </a></li>
-                <li><a href="" target="_blank"> Sobre </a></li>
-                <li><a href="" target="_blank"> Serviços </a></li>
-            </ul>
-        </nav>
-        <button> Contato </button>
+      <h2>PortoLogística</h2>
+      <nav>
+        <ul>
+          <li><a href="" target="_blank"> Home </a></li>
+          <li><a href="" target="_blank"> Mais </a></li>
+          <li><a href="" target="_blank"> Sobre </a></li>
+          <li><a href="" target="_blank"> Serviços </a></li>
+        </ul>
+      </nav>
+      <button>Contato</button>
     </header>
 
     <main>
+      <section class="container_PortoLogistica">
+        <h1>PortoLogística</h1>
+        <p>Soluções integradas para gestão portuária</p>
+        <button>Serviços</button>
+      </section>
 
-        <section class="container_PortoLogistica">
-            <h1> PortoLogística </h1>
-            <p> Soluções integradas para gestão portuária </p>
-            <button> Serviços </button>
+      <section class="container">
+        <article class="texto">
+          <h6>Gestão portuária integrada</h6>
+          <h3>Simplificando suas operações portuarias</h3>
+          <p>
+            A PortoLogistica é um sistema de gestão integrado de ultima geração
+            desenvolvido para aumentar a eficiência e a segurança das operações
+            portuárias no Brasil. Nossa plataforma oferece monitoramento em
+            tempo real, automação de processos e análise de dados, garantindo
+            que suas necessidades de movimentação, descarga e armazenamento de
+            carga sejam atendidas com precisão. Faça parceria conosco para obter
+            uma solução robusta e confiável para agilizar seus fluxos
+            logísitcos.
+          </p>
+          <ul>
+            <li>
+              <a href="" target="_blank">Entre em contato</a>
+            </li>
+          </ul>
+        </article>
 
+        <div class="elementos"></div>
+      </section>
+
+      <section class="texto_1">
+        <article>
+          <h6>Nossas soluções</h6>
+          <p>O que esperar do nosso sistema</p>
+        </article>
+      </section>
+
+      <section class="conteudo">
+        <div class="figura_1">
+          <div>
+            <h6>Containers a todo momento</h6>
+            <p>
+              Alugue seu container a qualquer momento entrando em contato com os
+              nossos colaboradores
+            </p>
+          </div>
+        </div>
+
+        <div class="figura_2">
+          <div>
+            <h6>+ 1000 navios</h6>
+            <p>
+              Temos mais de 1000 navios prontos para lidar com suas demandas
+            </p>
+          </div>
+        </div>
+
+        <div class="figura_3">
+          <div>
+            <h6>Monitoramento</h6>
+            <p>
+              Nosso monitoramento é feito em tempo real com os profissionais
+              mais qualificados do mercado
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="texto_3">
+        <div>
+          <h4>Atendimento e Comercial</h4>
+          <p>Entre em contato com a unidade:</p>
+        </div>
+
+        <div>
+          <h4>Fale conosco</h4>
+          <p>Se conecte com nossos colaboradores</p>
+        </div>
+      </article>
+
+      <section class="imagens">
+        <section class="Portos">
+          <figure>
+            <img
+              src="./imagens/img_santos.png"
+              alt="Imagem do porto de santos"
+            />
+            <figcaption>SANTOS</figcaption>
+          </figure>
+
+          <figure>
+            <img src="./imagens/img_ilha_conceicao.png" alt="porto ilha da conceição"/>
+            <figcaption>ILHA DA CONCEIÇÃO</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="./imagens/img_caju.png" alt="porto do caju" />
+            <figcaption>CAJU</figcaption>
+          </figure>
+          
+          <figure>
+            <img src="./imagens/img_niteroi.png" alt="porto niterio" />
+            <figcaption>NITEROI</figcaption>
+          </figure>
+        
         </section>
 
-        <section class="container">
+        <form>
+          <div>
+            <label for="nome"> Nome: </label>
+            <input type="text" name="nome" id="nome" />
+          </div>
+          
+          <div>
+            <label for="email"> Email </label>
+            <input type="email" id="email">
+          </div>
 
+          <div>
+            <label for=" Telefone "> Telefone </label>
+            <input type="tel" name="Telefone" id="tel">
+          </div>
 
+          <div>
+            <label for=" Mensagem "> Mensagem </label> 
+            <textarea name="Mensagem" rows="15"></textarea>
+          </div>
 
+        <div>
+          <input type="submit" value= "Enviar"/> 
+        </div>
 
-            <article class="texto">
-
-                <h6>Gestão portuária integrada</h6>
-                <h3>Simplificando suas operações portuarias</h3>
-                <p> A PortoLogistica é um sistema de gestão integrado de ultima geração desenvolvido para aumentar a
-                    eficiência e a segurança das operações portuárias no Brasil. Nossa plataforma oferece monitoramento
-                    em tempo real, automação de processos e análise de dados, garantindo que suas necessidades de
-                    movimentação, descarga e armazenamento de carga sejam atendidas com precisão. Faça parceria conosco
-                    para obter uma solução robusta e confiável para agilizar seus fluxos logísitcos. </p>
-                <ul>
-                    <li>
-                        <a href="" target="_blank">Entre em contato</a>
-                    </li>
-                </ul>
-            </article>
-
-            <div class="elementos">
-
-            </div>
-
-        </section>
-
-        <section class="texto_1">
-            <article>
-                <h6> Nossas soluções </h6>
-                <p> O que esperar do nosso sistema </p>
-            </article>
-        </section>
-
-        <section class="conteudo">
-
-            <div class="figura_1">
-                <div>
-                    <h6> Containers a todo momento </h6>
-                    <p> Alugue seu container a qualquer momento entrando em contato com os nossos colaboradores </p>
-                </div>
-            </div>
-
-            <div class="figura_2">
-                <div>
-                    <h6> + 1000 navios </h6>
-                    <p> Temos mais de 1000 navios prontos para lidar com suas demandas </p>
-                </div>
-            </div>
-
-            <div class="figura_3">
-                <div>
-                    <h6> Monitoramento </h6>
-                    <p> Nosso monitoramento é feito em tempo real com os profissionais mais qualificados do mercado </p>
-                </div>
-
-            </div>
-
-        </section>
+        </form>
 
         
-        
-
-
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
